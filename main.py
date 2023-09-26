@@ -5,8 +5,11 @@ class Transaction:
 
 def update_inventory(inventory, *transactions):
     """Updates the inventory based on the provided transactions."""
-    # TODO: Implementiere die Funktion
-    ...
+    for transaction in transactions:
+        if transaction.product in inventory:
+            inventory[transaction.product] += transaction.quantity
+        else:
+            inventory[transaction.product] = transaction.quantity
 
 if __name__ == '__main__':
     # Teste deine Funktion

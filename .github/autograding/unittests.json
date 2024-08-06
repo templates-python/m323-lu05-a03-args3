@@ -1,0 +1,26 @@
+[
+  {
+    "name": "test_update_inventory_single_transaction",
+    "function": "test_update_inventory_single_transaction",
+    "timeout": 10,
+    "points": 1
+  },
+  {
+    "name": "test_update_inventory_multiple_transactions",
+    "function": "test_update_inventory_multiple_transactions",
+    "timeout": 10,
+    "points": 1
+  },
+  {
+    "name": "test_update_inventory_new_product",
+    "function": "test_update_inventory_new_product",
+    "timeout": 10,
+    "points": 1
+  },
+  {
+    "name": "test_update_inventory_no_transactions",
+    "function": "test_update_inventory_no_transactions",
+    "timeout": 10,
+    "points": 1
+  }
+]

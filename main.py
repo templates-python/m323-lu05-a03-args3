@@ -18,7 +18,7 @@ def update_inventory(inventory, *transactions):
 
 if __name__ == '__main__':
     # Teste deine Funktion
-    inventory = {'Apfel': 10, 'Birne': 5}
-    transactions = [Transaction('Apfel', 3), Transaction('Birne', -2)]
-    update_inventory(inventory, *transactions)
-    print(inventory)  # Erwarteter Output: {'Apfel': 13, 'Birne': 3}
+    demo_inventory = {'Apfel': 10, 'Birne': 5}
+    demo_transactions = [Transaction('Apfel', 3), Transaction('Birne', -2)]
+    update_inventory(demo_inventory, *demo_transactions)
+    print(demo_inventory)  # Erwarteter Output: {'Apfel': 13, 'Birne': 3}

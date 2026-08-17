@@ -1,3 +1,8 @@
+"""Aktualisierung von Lagerbeständen mit Transaktionen.
+
+Aufgabenstellung: https://wiki.bzz.ch/modul/m323/learningunits/lu05/aufgaben/args3
+"""
+
 class Transaction:
 
     def __init__(self, product, quantity):
